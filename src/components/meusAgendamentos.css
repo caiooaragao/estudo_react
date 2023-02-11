@@ -1,0 +1,29 @@
+/*  MAIN   */
+
+
+
+/* FORMULARIO */
+
+.agendamentos-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: #D9F8FF;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+    justify-content: space-between;
+    min-width: 270px;
+
+
+}
+
+.main-container {
+    width: 27%;
+    min-width: 280px;
+}
+
+
+
+.img-icon {
+    width: 14px;
+}
