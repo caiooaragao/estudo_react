@@ -8,15 +8,13 @@ import Header from "./components/Header";
 import MeusAgendamentos from "./components/MeusAgendamentos";
 import Button from "./components/evento/Button";
 import Condicional from "./components/Condicional"
-
+import ListaExemplo from "./components/ListaExemplo";
  function App(){
   
 
   return(
     <>
-      <Form/>
-      <Eventos/>
-      <Condicional/>
+      <ListaExemplo/>
       
     </>
   )

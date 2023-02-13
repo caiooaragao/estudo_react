@@ -23,9 +23,28 @@ function Condicional(){
                     </div>
                 )}
             </form>
+         
             
         </div>
     )
 }
 
 export default Condicional
+
+
+/*
+
+// Declare a constant variable named "role" and assign it the value "admin".
+const role = "admin";
+
+// Use a ternary operator to conditionally render either the "AdminDashboard" component or the "UserDashboard" component.
+{role === "admin" ? (
+  // If the value of "role" is equal to "admin", render the "AdminDashboard" component.
+  <AdminDashboard />
+) : (
+  // If the value of "role" is not equal to "admin", render the "UserDashboard" component.
+  <UserDashboard />
+)}
+
+
+*/
